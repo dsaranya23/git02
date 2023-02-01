@@ -9,10 +9,23 @@ public class Employee {
 		System.out.println("Employeed Name: Saranya");
 
 	}
+	
+	private void empProj() {
+		System.out.println("Employe Project:1243");
+
+	}
+	
+	private void empAdd() {
+		System.out.println("Employe Address:Chennai");
+
+	}
+	
 	public static void main(String[] args) {
 		 Employee e = new  Employee();
 		 e.empId();
 		 e.empName();
+		 e.empProj();
+		 e.empAdd();
 		
 		 ProjectDetail p = new ProjectDetail();
 		 p.proId();
